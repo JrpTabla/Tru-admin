@@ -1,0 +1,87 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+    
+}
+
+.breadcrumb {
+    border-radius: 5px;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+
+.selection-table {
+    width: 75px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);   
+}
+
+.table-btn-view {
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.table {
+    border-radius: 5px !important;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+.btn-view-user {
+    background: #0B7CB8;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-view-user:hover {
+    scale: 1.1;
+    background: #0B7CB8;
+}
+
+
+.btn-edit-user {
+    background: #E7AA2E;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-edit-user:hover {
+    scale: 1.1;
+    background: #E7AA2E;
+}
+
+.btn-block-user {
+    background: #414141;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-block-user:hover {
+    scale: 1.1;
+    
+    background: #414141;
+}
+
+.btn-unblock-user {
+    background: #569E4C;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-unblock-user:hover {
+    scale: 1.1;
+    background: #569E4C;
+}
+
+
+.btn-unblock-view {
+    background: #569E4C;
+}
+
+.btn-unblock-view:hover {
+    background: #569E4C;
+}
+
+.btn-block-view {
+    background: #F27927;
+}
+
+.btn-block-view:hover {
+    background: #F27927;
+}
