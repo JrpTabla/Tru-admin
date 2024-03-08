@@ -34,6 +34,18 @@ Route::get('/members', function () {
 });
 
 
+Route::get('/contents', function () {
+    return view('contents/contents');
+});
+
+
+Route::get('/contents_homepage', function () {
+    return view('contents/Homepage/contents_homepage');
+});
+
+
+
+
 Route::get('/members/user-profile/{id}', function () {
     return view('member/user_profile');
 });
