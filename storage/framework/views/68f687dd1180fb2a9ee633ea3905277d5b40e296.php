@@ -16,4 +16,4 @@
 
     <script src="<?php echo e(asset ('assets/js/bootstrap.js')); ?>"></script>
 </body>
-</html><?php /**PATH C:\Users\Admin-IT\Desktop\tru-international\example-app\resources\views/header/header.blade.php ENDPATH**/ ?>
+</html><?php /**PATH C:\Users\Admin-IT\Desktop\tru-international\tru-CMS\resources\views/header/header.blade.php ENDPATH**/ ?>

@@ -1,8 +1,8 @@
-@extends('header.header')
 
-@section('content')
 
-<link rel="stylesheet" href="{{ asset ('assets/css/dashboard/dashboard.css') }}">
+<?php $__env->startSection('content'); ?>
+
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/dashboard/dashboard.css')); ?>">
 
 <div class="main">
     
@@ -62,4 +62,5 @@
     </div>
 
 </div>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('header.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Admin-IT\Desktop\tru-international\tru-CMS\resources\views/dashboard.blade.php ENDPATH**/ ?>

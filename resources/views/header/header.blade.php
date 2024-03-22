@@ -6,9 +6,11 @@
     <title>Tru Admin | Dashboard</title>
 
     <link rel="stylesheet" href="{{ asset ('assets/css/bootstrap.css') }}">
+    
 
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     
     @yield('content')   
 
